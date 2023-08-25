@@ -1,6 +1,4 @@
-package me.dio.helloworld
-
-class Generics<E>(vararg items: E) {
+class GenericClasses<E>(vararg items: E) {
 
     private val elements = items.toMutableList()
 
