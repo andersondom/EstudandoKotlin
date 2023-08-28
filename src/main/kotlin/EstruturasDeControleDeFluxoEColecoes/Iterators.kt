@@ -11,10 +11,10 @@ class Zoo(val animals: List<Animal>) {
 
 fun main() {
 
-    val zoo = Zoo(listOf(Animal("zebra"), Animal("lion")))
+    var animals = listOf(Animal("zebra"), Animal("lion"))
+    val zoo = Zoo(animals)
 
     for (animal in zoo) {                                   // 3
         println("Watch out, it's a ${animal.name}")
     }
-
 }
